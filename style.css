@@ -21,8 +21,6 @@ body{
   padding: 20px;
   display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 500px;
 
 }
@@ -43,6 +41,7 @@ body{
   outline: none;
   font-size: 20px;
   cursor: pointer;
+  align-self: flex-end;
 }
 .text.show-more .moreText{
 display: inline;
